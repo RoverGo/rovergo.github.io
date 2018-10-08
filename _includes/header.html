@@ -1,0 +1,46 @@
+<div id="preloader">
+  <div id="preloader-inner"></div>
+</div><!--/preloader-->
+<!--back to top-->
+<a href="#" class="scrollToTop"><i class="ion-ios-arrow-up"></i></a>
+<!--back to top end-->
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-default fixed-top navbar-transparent shrink">
+
+  <div class="clearfix"></div>
+  <div class="container-fluid">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="{{ "/" | relative_url }}">
+          <img src="/assets/images/logo.png" alt="rovergo logo" class="logo-scroll">
+          <img src="/assets/images/logo-light.png" alt="rovergo logo" class="logo-top">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto scroll-to">
+              <li class="nav-item"><a class="nav-link active" href="/">Blog</a></li>
+
+              {%- assign default_paths = site.pages | map: "path" -%}
+              {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+              {%- if page_paths -%}
+                {%- for path in page_paths -%}
+                  {%- assign my_page = site.pages | where: "path", path | first -%}
+                  {%- if my_page.title -%}
+                  <li class="nav-item"><a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+
+              <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_website }}">RoverGo</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_website }}/Features">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_website }}/Pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_website }}/Faqs">FAQs</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_website }}/Contact">Contact</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="{{ site.rovergo_portal }}">Portal</a></li>
+          </ul>
+      </div>
+  </div>
+</nav><!--navbar end-->

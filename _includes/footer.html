@@ -1,0 +1,31 @@
+<footer class="footer">
+  <div class="space-50"></div>
+  <div class="container">
+    <div class="row vertical-align-child">
+      <div class="col-md-6 margin-b-30">
+        <div class="margin-b-20">
+          <a href="/">
+            <img src="{{ "/assets/images/logo-light.png" | relative_url }}" class="ftr-logo" alt="rovergo logo">
+          </a>
+        </div>
+        <p>
+          {{- site.description | escape -}}
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <h4>Subscribe to newsletter</h4>
+        <div>
+          <a href="{{ site.rovergo_website }}">Subscribe</a>
+        </div>
+        <span>{{ site.copyright }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="space-20"></div>
+</footer>
+
+<!-- jQuery plugins-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{{ "/assets/js/plugins.js" | relative_url }}" type="text/javascript"></script>
+<script src="{{ "/assets/js/template-custom.js" | relative_url }}" type="text/javascript"></script>
