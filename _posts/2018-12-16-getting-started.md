@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to RoverGo - Getting Started"
+title:  "Getting Started"
 date:   2018-12-16
-categories: rovergo "getting started"
+categories: [rovergo, "getting started"]
 ---
 
 Welcome to [RoverGo](https://rovergo.io/)! Let's create your first task. 
