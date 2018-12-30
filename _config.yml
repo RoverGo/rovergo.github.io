@@ -28,6 +28,8 @@ permalink: /:title
 
 google_analytics: UA-113462400-3
 
+disqus_shortname: "rovergo"
+
 # Build settings
 markdown: kramdown
 theme: minima

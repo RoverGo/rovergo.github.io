@@ -2,16 +2,15 @@ var $ = $.noConflict();
 $(function () {
     "use strict";
 
-    if ($(".navbar").width() > 1007)
-    {
+    if ($(".navbar").width() > 1007) {
         $('.navbar .dropdown').hover(function () {
             $(this).addClass('open');
         }, function () {
             $(this).removeClass('open');
         });
     }
-    ;
-// site preloader
+
+    // site preloader
     //preloader
     $(window).preloader({
         delay: 500
@@ -35,19 +34,10 @@ $(function () {
 
     //Click event to scroll to top
     $('.scrollToTop').on("click", function () {
-        $('html, body').animate({scrollTop: 0}, 800);
+        $('html, body').animate({ scrollTop: 0 }, 800);
         return false;
     });
-    //animated scroll menu
-    //$(window).on("scroll", function () {
-    //    var scroll = $(window).scrollTop();
-    //    if (scroll > 0) {
-    //        $('.navbar-transparent').addClass('shrink');
-    //    }
-    //    if (scroll <= 0) {
-    //        $('.navbar-transparent').removeClass('shrink');
-    //    }
-    //});
+
     //smooth scroll
     $(function () {
         $('.scroll-to a[href*="#"]:not([href="#"])').on("click", function () {
@@ -88,7 +78,7 @@ $(function () {
     });
     //smooth scroll
     $(function () {
-        $('.scroll-to a[href*="#"]:not([href="#"])').on("click",function () {
+        $('.scroll-to a[href*="#"]:not([href="#"])').on("click", function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');

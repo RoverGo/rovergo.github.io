@@ -2,6 +2,7 @@
 layout: post
 title:  "Getting Started"
 date:   2018-12-16
+comments: true
 categories: [rovergo, "getting started"]
 ---
 
