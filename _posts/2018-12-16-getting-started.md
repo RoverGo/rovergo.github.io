@@ -6,7 +6,7 @@ comments: true
 categories: [rovergo, "getting started"]
 ---
 
-Welcome to [RoverGo](https://rovergo.io/)! Let's create your first task. 
+Welcome to [RoverGo]({{site.rovergo_website}})! Let's create your first task.
 
 - First, login to your account at <https://app.rovergo.io>. If you don't have an account, you can create one here with your email address, or use one of our supported login providers.
 - Click the [Create Task](https://app.rovergo.io/Task/Create) button.
