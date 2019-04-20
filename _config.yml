@@ -36,7 +36,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-rovergo_website: "https://rovergo.io"
+rovergo_website: "https://www.rovergo.io"
 rovergo_portal: "https://app.rovergo.io"
 
 copyright: "&copy; RoverGo 2018"
