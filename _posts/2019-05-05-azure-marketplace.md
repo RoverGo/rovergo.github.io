@@ -6,6 +6,6 @@ comments: true
 categories: [rovergo, azure]
 ---
 
-RoverGo is in the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-in/marketplace/apps/elite-business-solutions.rovergo). Sign up today for a free trial.
+RoverGo is in the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/elite-business-solutions.rovergo). Sign up today for a free trial.
 
 ![Azure Marketplace](/assets/images/azure-marketplace.png)
