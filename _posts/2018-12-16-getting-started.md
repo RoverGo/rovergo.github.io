@@ -25,5 +25,3 @@ Welcome to [RoverGo]({{site.rovergo_website}})! Let's create your first task.
 ![create task part 2](/assets/images/create-task-2.PNG)
 
 If your server is IP restricted, you'll need to whitelist RoverGo. The IP addresses are at the top of the [task page](https://app.rovergo.io/Task/Create).
-
-![RoverGo IP addresses](/assets/images/create-task-3.PNG)
