@@ -3,7 +3,7 @@ layout: post
 title:  "PostgreSQL"
 date:   2020-06-02
 comments: true
-categories: [rovergo, azure]
+categories: [rovergo, postgresql]
 ---
 
 Do you host PostgreSQL in Azure? Do you need to schedule scripts in PostgreSQL? We now fully support [Azure Database for PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/). Of course, you can also use RoverGo with any instance of PostgreSQL, even if it's not hosted in Azure.
