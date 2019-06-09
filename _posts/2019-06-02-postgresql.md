@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PostgreSQL"
+title:  "Azure Database for PostgreSQL"
 date:   2019-06-02
 comments: true
 categories: [rovergo, postgresql]
